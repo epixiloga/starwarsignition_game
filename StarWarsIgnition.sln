@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsIgnition.Console.UI", "StarWarsIgnition.Win.UI\StarWarsIgnition.Console.UI.csproj", "{6DB81E57-6E00-4661-99B1-E2DA33FBA750}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AF687F90-6592-4B96-A3B5-263F26EC6833}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{B9B0A41B-8B85-45D7-BB20-0F2EAE126934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsIgnition.Core.Data", "StarWarsIgnition.Core.Data\StarWarsIgnition.Core.Data.csproj", "{D1B52177-6677-4475-8E6F-4946F20D5322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsIgnition.Windows.UI", "StarWarsIgnition.Windows.UI\StarWarsIgnition.Windows.UI.csproj", "{A57979D0-6C9C-439B-89DA-6DD53B0EA17B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsIgnition.Core", "StarWarsIgnition.Core\StarWarsIgnition.Core.csproj", "{34CEC2A8-A5D2-40F2-9D14-E2F5B85B6BC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pocs", "Pocs", "{B0AA407C-7F76-44F2-84EB-51E53CB30047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiteDecouverteLinq", "SuiteDecouverteLinq\SuiteDecouverteLinq.csproj", "{5B077819-3902-49F4-A497-E845120EBFFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DB81E57-6E00-4661-99B1-E2DA33FBA750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB81E57-6E00-4661-99B1-E2DA33FBA750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB81E57-6E00-4661-99B1-E2DA33FBA750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB81E57-6E00-4661-99B1-E2DA33FBA750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B52177-6677-4475-8E6F-4946F20D5322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B52177-6677-4475-8E6F-4946F20D5322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B52177-6677-4475-8E6F-4946F20D5322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B52177-6677-4475-8E6F-4946F20D5322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57979D0-6C9C-439B-89DA-6DD53B0EA17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57979D0-6C9C-439B-89DA-6DD53B0EA17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57979D0-6C9C-439B-89DA-6DD53B0EA17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57979D0-6C9C-439B-89DA-6DD53B0EA17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CEC2A8-A5D2-40F2-9D14-E2F5B85B6BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CEC2A8-A5D2-40F2-9D14-E2F5B85B6BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CEC2A8-A5D2-40F2-9D14-E2F5B85B6BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CEC2A8-A5D2-40F2-9D14-E2F5B85B6BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B077819-3902-49F4-A497-E845120EBFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B077819-3902-49F4-A497-E845120EBFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B077819-3902-49F4-A497-E845120EBFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B077819-3902-49F4-A497-E845120EBFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DB81E57-6E00-4661-99B1-E2DA33FBA750} = {AF687F90-6592-4B96-A3B5-263F26EC6833}
+		{D1B52177-6677-4475-8E6F-4946F20D5322} = {B9B0A41B-8B85-45D7-BB20-0F2EAE126934}
+		{A57979D0-6C9C-439B-89DA-6DD53B0EA17B} = {AF687F90-6592-4B96-A3B5-263F26EC6833}
+		{34CEC2A8-A5D2-40F2-9D14-E2F5B85B6BC2} = {B9B0A41B-8B85-45D7-BB20-0F2EAE126934}
+		{B0AA407C-7F76-44F2-84EB-51E53CB30047} = {AF687F90-6592-4B96-A3B5-263F26EC6833}
+		{5B077819-3902-49F4-A497-E845120EBFFA} = {B0AA407C-7F76-44F2-84EB-51E53CB30047}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A77E27C-A4BF-432C-B69E-2A7EEC53EF0A}
+	EndGlobalSection
+EndGlobal
