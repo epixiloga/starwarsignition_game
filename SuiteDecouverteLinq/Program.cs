@@ -178,7 +178,7 @@ namespace SuiteDecouverteLinq
 
             foreach (var item in query6)
             {
-                Console.WriteLine("Cheveux " + (item.Key ? "long" : "court") + ", nb : " + item.Count(à);
+                Console.WriteLine("Cheveux " + (item.Key ? "long" : "court") + ", nb : " + item.Count());
                 foreach (var app in item)
                 {
                     Console.WriteLine("Apprenant : " + app.Sexe + ", " + app.Taille);
